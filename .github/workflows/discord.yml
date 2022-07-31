@@ -1,8 +1,8 @@
 name: Discord Reminder Notify
 
 on:
-  push:
-    branches: [ master ]
+  schedule:
+    - cron: '* * * * *'
 
 jobs:
   build:
@@ -15,4 +15,4 @@ jobs:
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#48f442"
           username: "Reminder Bot"
-          args: "22時になりました。薬を飲んでください。"
+          args: "22時になりました。薬を飲んでください。💊"
