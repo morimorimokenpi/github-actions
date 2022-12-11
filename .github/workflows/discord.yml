@@ -15,4 +15,4 @@ jobs:
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
           color: "#DB7093"
           username: "Reminder Bot"
-          args: "お薬を飲む時間です。飲んだら報告お願いします。🍑🦕🍑🦕🍑🦕"
+          args: "お薬を飲む時間です。飲んだら報告お願いします。🍑🦕🍑🦕"
