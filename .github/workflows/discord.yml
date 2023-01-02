@@ -2,7 +2,7 @@ name: Discord Reminder Notify
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '３0 12 * * *'
 
 jobs:
   build:
